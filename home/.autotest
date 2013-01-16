@@ -1,0 +1,8 @@
+Autotest.add_hook(:initialize) {|at|
+  # ignore constantly changing files, lest autotest will run again, and again...
+  at.add_exception %r{^\.git}
+  at.add_exception %r{^./tmp}
+  at.add_exception %r{^./log}
+  at.add_exception %r{\.swp$}
+  nil
+}

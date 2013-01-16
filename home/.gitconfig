@@ -1,0 +1,11 @@
+[user]
+	name = James Gary
+	email = mrjamesgary@gmail.com
+[color]
+	ui = auto
+[core]
+	excludesfile = /Users/jgary/.gitignore_global
+[github]
+  user = jamesgary
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
