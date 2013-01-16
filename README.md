@@ -5,13 +5,11 @@ See [technicalpickles/homesick](https://github.com/technicalpickles/homesick) fo
 
 ```shell
 gem install homesick
+
 homesick clone git://github.com/jamesgary/homesick-castle.git
 
-# Just in case homesick didn't unpack gitmodules correctly...
-cd ~/.homesick/repos/homesick-castle
-git submodule init
-git submodule sync
-git submodule update
+# For some reason, `clone` doesn't update submodules, but `pull` does
+homesick pull homesick-castle
 
 homesick symlink homesick-castle
 ```
