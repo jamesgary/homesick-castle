@@ -82,6 +82,6 @@ export EDITOR=vim
 
 export PATH="/usr/local/heroku/bin:$PATH"
 
-if [ -f "$HOME/.private/env" ]; then
-  . "$HOME/.private/env"
+if [ -f "$HOME/.private/.profile" ]; then
+  . "$HOME/.private/.profile"
 fi
