@@ -4,7 +4,7 @@
 [color]
 	ui = auto
 [core]
-	excludesfile = /Users/jgary/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [github]
   user = jamesgary
 [alias]
