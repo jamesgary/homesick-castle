@@ -112,4 +112,5 @@ map <Leader>o iLorem ipsum dolor sit amet, consectetur adipiscing elit. In ut qu
 
 " Clear trailing whitespace
 map <Leader>w :%s/\s\+$//<CR>
+
 map <Leader>t :Tabularize /: \zs<CR>
