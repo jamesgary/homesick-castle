@@ -14,6 +14,7 @@ alias bep='bundle exec padrino'
 
 # misc
 alias fu='touch tmp/restart.txt' # I'm usually angry at this point.
+alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
 
 #######################
 # command line voodoo #
@@ -73,6 +74,7 @@ alias ucgrep='grep -rI --color --context=5'
 
 # see http://stackoverflow.com/questions/6970545/make-error-installing-ruby-1-9-2-with-rvm-and-readline-under-osx-lion
 export ARCHFLAGS="-arch x86_64"
+export ARCH="-arch x86_64"
 export VISUAL=vim
 export EDITOR=vim
 

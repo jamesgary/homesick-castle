@@ -1,5 +1,3 @@
-*.CSV
-*.csv
 *.orig
 *.sphinx.conf
 *.sql
