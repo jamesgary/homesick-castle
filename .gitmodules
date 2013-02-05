@@ -31,3 +31,7 @@
 [submodule "home/.vim/bundle/vim-ruby"]
   url  = git://github.com/vim-ruby/vim-ruby.git
   path = home/.vim/bundle/vim-ruby
+
+[submodule "home/.vim/bundle/vim-jade"]
+  url  = git://github.com/digitaltoad/vim-jade.git
+  path = home/.vim/bundle/vim-jade

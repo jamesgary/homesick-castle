@@ -15,6 +15,10 @@ alias bep='bundle exec padrino'
 # misc
 alias fu='touch tmp/restart.txt' # I'm usually angry at this point.
 alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
+alias tree="tree -I node_modules"
+
+# always open multiple files in tabs
+alias vi='vi -p'
 
 #######################
 # command line voodoo #
