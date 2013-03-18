@@ -34,3 +34,6 @@
 [submodule "home/.vim/bundle/vim-jade"]
   url  = git://github.com/digitaltoad/vim-jade.git
   path = home/.vim/bundle/vim-jade
+[submodule "home/.vim/bundle/vim-puppet"]
+  url  = git://github.com/rodjek/vim-puppet.git
+  path = home/.vim/bundle/vim-puppet

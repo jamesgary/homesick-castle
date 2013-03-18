@@ -10,6 +10,7 @@
 *.gem
 .idea
 .metadata
+.netrwhist
 .powenv
 .powrc
 .sass-cache
