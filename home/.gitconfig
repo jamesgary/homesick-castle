@@ -17,9 +17,12 @@
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   blame = blame -wC
   undo = reset --soft HEAD^
+  pull = pull --rebase
 [help]
   autocorrect = -1
-[credential]
-	helper = osxkeychain
 [push]
 	default = simple
+[branch]
+	autosetuprebase = always
+[branch "*branch-name*"]
+	rebase = true

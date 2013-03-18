@@ -14,7 +14,7 @@ alias bep='bundle exec padrino'
 
 # misc
 alias fu='touch tmp/restart.txt' # I'm usually angry at this point.
-alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
+alias servethis="python -m SimpleHTTPServer 8000"
 alias tree="tree -I node_modules"
 
 # always open multiple files in tabs
@@ -63,6 +63,8 @@ proml
 #######
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+#export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 
 #################################################
 # handy grep aliases, but trying to use ack now #

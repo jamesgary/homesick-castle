@@ -21,8 +21,8 @@ set lazyredraw
 set number
 set ruler
 syntax on
-"au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl set filetype=glsl " glsl syntax
+autocmd BufNewFile,BufRead *.json set ft=javascript
 
 " search
 set hlsearch

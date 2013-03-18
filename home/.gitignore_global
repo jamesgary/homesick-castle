@@ -7,6 +7,7 @@
 .DS_Store
 .bundle/*
 .bundle/**/*
+*.gem
 .idea
 .metadata
 .powenv
@@ -21,6 +22,7 @@ db/sphinx/*
 db_backup*
 doc/
 god.log
+node_modules
 public/compiled
 public/stylesheets/compiled/
 routes
