@@ -12,7 +12,7 @@
   ci = commit
   br = branch
   co = checkout
-  df = diff
+  df = diff --color-words
   re = remote -v
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   blame = blame -wC

@@ -11,6 +11,7 @@ set nocompatible " Disable vi-compatibility
 set so=10 " Buffer 10 lines around the cursor when moving vertically
 set wrap
 set nosol " turn off startofline so ctrl+u and ctrl+d behave better
+set backspace=indent,eol,start
 
 " visual
 colorscheme desert
