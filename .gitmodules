@@ -37,3 +37,9 @@
 [submodule "home/.vim/bundle/vim-puppet"]
   url  = git://github.com/rodjek/vim-puppet.git
   path = home/.vim/bundle/vim-puppet
+[submodule "home/.vim/bundle/vim-gitgutter"]
+  url  = git://github.com/airblade/vim-gitgutter.git
+  path = home/.vim/bundle/vim-gitgutter
+[submodule "home/.vim/bundle/vim-stylus"]
+  url  = git://github.com/wavded/vim-stylus.git
+  path = home/.vim/bundle/vim-stylus
